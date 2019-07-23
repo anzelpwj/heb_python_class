@@ -61,7 +61,7 @@ A [nice list](http://www.cs.joensuu.fi/~saja/var_roles/role_intro.html) of how v
 | Most wanted holder | Something holding the best value encountered so far | maximum value |
 | Gatherer | Something accumulating the effects of individual values | debt calculation |
 | Follower | Keeps track of the prior value of another variable | `x = y; y = y + 1` |
-| One-way flag | Two valued data that can't get intial value once value has changed (usually goes from 0 to 1) | `errors_occured` |
+| One-way flag | Two valued data that can't get initial value once value has changed (usually goes from 0 to 1) | `errors_occurred` |
 | Temporary | Something holding data for very short time | Calculate the first month's interest in mortgage |
 
 Note that this list isn't complete, and there are a couple more types the authors demonstrate in the above link, but this is a good starting point to work from.
@@ -90,7 +90,7 @@ Note that this list isn't complete, and there are a couple more types the author
 - To select a range of items, do `x[m:n]` (this goes `m, m+1, ..., n-1`).
 - `x[5:]` goes from element 5 to the end. `x[:5]` goes from the beginning to element 4.
 - `len(x)` tells you how many elements `x` has.
-- Can use indicies like -1, -2, etc to represent the last element, second to last element, etc.
+- Can use indices like -1, -2, etc to represent the last element, second to last element, etc.
 - You can concatenate lists with `+`. You can repeat lists with `*`.
   - No easy vector math here, but lists are the wrong tool for that anyway.
   - `x.append(y)` adds element `y` to the end of list `x`.
