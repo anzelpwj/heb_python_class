@@ -124,7 +124,7 @@ assert 0 not in values, "Harmonic mean requires non-zero values."
 
 ### Make a module of 401k strategies, and import them.
 
-Take the 4 strategies from [the last session](https://hackmd.io/J6f52OcpSiaTr0VDdkg0LA), put them into their own file, and import them.
+Take the 4 strategies from the last session, put them into their own file, and import them.
 
 ### Adjust the Mortgage Calculator to raise an error.
 
