@@ -18,12 +18,12 @@ There are a few variants of Python available (and if you're on Mac or Linux, you
 - It handles installing certain numerical-work heavy packages better.
 - We're using Anaconda Python already in our Big Data pipeline, so if you start doing more DS stuff for HEB you'll be ready to go.
 
-Before we get started, please make sure to install Aanconda Python on your computer. To do so, do the following.
+Before we get started, please make sure to install Anaconda Python on your computer. To do so, do the following.
 1. Go to [LARS](https://lars.heb.com/Login.aspx) and request administrative rights for your computer.
 2. Once this has been granted, go to Anaconda.com and click on Download.
 3. You will want to download the Graphical Installer for your OS (which is probably 64-bit), Python 3.7 (not 2.7).
 5. Once the installer is downloaded (and you've been granted admin right) open it up and start the installation.
-6. Go with all the defaults for installation, __except__ when it asks you if you want to add Ananconda to your system path, say yes (this might just be Windows specific). You also don't need to install VS Code if you don't want (it's a free IDE by Microsoft and I hear it's decent, but I'm not experienced with it).
+6. Go with all the defaults for installation, __except__ when it asks you if you want to add Anaconda to your system path, say yes (this might just be Windows specific). You also don't need to install VS Code if you don't want (it's a free IDE by Microsoft and I hear it's decent, but I'm not experienced with it).
 *  If you accidentally click no, let me know and we can fix this, it'll just take a little effort.
 7. Once the installation is complete, verify if Anaconda Navigator is available on your computer.
 
@@ -45,7 +45,7 @@ Please feel free to interrupt me if you feel like I'm not explaining something w
 
 Two colors of sticky notes:
 - Yellow: I need help with something.
-- Blue: I'm finished with things, and am ready to move on.
+- Blue: I'm finished with things and am ready to move on.
 
 ## Hello World
 
@@ -68,13 +68,13 @@ print "Hello HEB"
 - How to open terminal (Mac and Windows)
     - PC
         - Use anaconda prompt for PCs
-        - Type cmd and open anaconda prompt
+        - Type `cmd` and open anaconda prompt
     - Mac
         - Just open terminal and type `python`
 - Opening the REPL
     - Read, evaluate, print loop in terminal
     - Can do simple math operators, or test simple pieces of code in the command line
-    - Difficult to excute multiple lines of code
+    - Difficult to execute multiple lines of code
     - To get out of REPL, type exit()
 
 
@@ -84,20 +84,20 @@ print "Hello HEB"
 - Also can use escape characters: 
     - `print('You can\'t always get what you want')`
     
-### Text editors
+### iPython
 - Open Anaconda Navigator
     - qtconsole (aka ipython):
         - Better than REPL - provides some help and color coding
         - Includes ipy magics
             - %reset resets entire workspace (variables, etc)
             - %timeit - logs the time it takes to execute a command (or set of commands)
-            - ls, cd, and other unix commands that don't work in REPL
+            - ls, cd, and other Unix commands that don't work in REPL
 
-### iPython and Jupyter notebook
+### Jupyter notebook
 
 - Code, figures and text.
 - [Example](https://nbviewer.jupyter.org/github/anzelpwj/Stats-week/blob/master/Fourier.ipynb)
-- Launch juptyer - will open terminal window as well as browser (ignore terminal window but don't close it)
+- Launch Jupyter - will open terminal window as well as browser (ignore terminal window but don't close it)
 - Open a new notebook using the New button in the upper righthand corner
 - Each cell will execute with shift-enter
 - If you don't know what a command does, enter it with a ? at the end and you'll get a help document
