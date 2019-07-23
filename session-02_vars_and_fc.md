@@ -17,7 +17,7 @@
 - How do we repeat something a set number of times?
 - How do we repeat something until we decide not to?
 - How do we decide to do one thing or another?
-- Python whitespacing
+- Python white-spacing
 
 ## Our challenges
 
@@ -51,12 +51,12 @@ By the end of this lunch-and-learn, we should have created (or at least know how
 - Multi-line strings with triple quotes.
   - Very useful for embedding SQL or JSON or other type code in your Python. 
 - Use of escape characters like `\n`, `\0`.
-- Strings can be contatenated by being added together (`'test1 ' + 'test2' = 'test1 test2'`), and repeated by multiplying (`'test'*5 = 'testtesttesttesttest'`).
+- Strings can be concatenated by being added together (`'test1 ' + 'test2' = 'test1 test2'`), and repeated by multiplying (`'test'*5 = 'testtesttesttesttest'`).
 - Strings are always variable width, and single characters are also strings.
 
 ## Flow control
 
-### Whitespacing
+### White-spacing
 
 - Blocks of code for for/if/etc are set apart by indentation.
 - Example:
@@ -108,12 +108,12 @@ print('b')
 
 ## Challenge 1: 401k Calculator
 
-Let's assume that we put a set amount of money weekly into the HEB 401k, and we've found a fund that has a guarunteed 4% return, compounding weekly. After a given number of years, how much money will we have?
+Let's assume that we put a set amount of money weekly into the HEB 401k, and we've found a fund that has a guaranteed 4% return, compounding weekly. After a given number of years, how much money will we have?
 
 To simplify this problem, we're going to do two things:
 1. We will try solving this problem in Excel.
   ** This will not only help us see the structure of our program, but we can use this as a way to test our output. The results we get from Python should match what we get here.
-3. I'm going to give you the program, but the lines will be out of order (and there will be no whitespacing to help). Your task is to rearrange the lines until they give a correct program.
+3. I'm going to give you the program, but the lines will be out of order (and there will be no white-spacing to help). Your task is to rearrange the lines until they give a correct program.
 
 ```python
 weeks_saving = 52*years_saving
@@ -127,7 +127,7 @@ years_saving = 20
 savings = savings * (1 + rate_of_return/52)
 ```
 
-Final check: If you have interest compound after the pricipal payment, after 20 years you should have saved $318707.69.
+Final check: If you have interest compound after the principal payment, after 20 years you should have saved $318707.69.
 
 ## Challenge 2: Mortgage calculator
 
