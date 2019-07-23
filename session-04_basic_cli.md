@@ -41,7 +41,7 @@
 
 ## Challenge
 
-Jeremy Z put up some notes on running a batch script with Impala-Shell [here](https://confluence.heb.com:8443/display/EDA/Running+Batch+Scripts+with+Impala). By the end of this class, folks should be completely comfortable with doing this, as well as knowing some additional tricks to make doing this a breeze.
+Jeremy Z put up some notes on running a batch script with Impala-Shell at *link removed*. By the end of this class, folks should be completely comfortable with doing this, as well as knowing some additional tricks to make doing this a breeze.
 
 ## Notes
 
@@ -82,7 +82,7 @@ Jeremy Z put up some notes on running a batch script with Impala-Shell [here](ht
 - Example: `$ cd Documents`
 - Lets you move around in directories.
   - The example here would move you into the Documents folder.
-- `..` is a acronym for "one directory up".
+- `..` is an abbreviation for "one directory up".
 - `.` means current directory.
 - `cd` and `cd ~` move you back home.
 - Mac/Linux: `/`, Windows `\`.
@@ -115,7 +115,7 @@ Jeremy Z put up some notes on running a batch script with Impala-Shell [here](ht
 
 - Example `$ rm old_data.txt`
 - Removes a file.
-  - This does *not* go into a Recyling Bin/Trash. The file is __GONE__ unless you want to start doing heavy forensics.
+  - This does *not* go into a Recycling Bin/Trash. The file is __GONE__ unless you want to start doing heavy forensics.
 - You can remove folders only if they're empty.
   - `rm -rf` overrides this but you can delete __everything__ on your computer if you're not careful.
 
